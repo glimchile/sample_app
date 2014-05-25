@@ -11,6 +11,9 @@ gem 'bootstrap-sass', '2.3.2.0'
 # workaround for environment error
 gem 'sprockets', '=2.11.0'
 
+# for password hash encryption
+gem 'bcrypt-ruby', '3.1.2'
+
 # Use sqlite3 as the database for Active Record
 group :development, :test do
 	gem 'sqlite3', '1.3.8'
